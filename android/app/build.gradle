@@ -1,0 +1,76 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android" // ok to keep; can be org.jetbrains.kotlin.android on newer AGP
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+def keystoreProperties = new Properties()
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+// Determine if we actually have all signing props present
+def hasSigningProps =
+        keystorePropertiesFile.exists() &&
+                keystoreProperties['storeFile'] &&
+                keystoreProperties['storePassword'] &&
+                keystoreProperties['keyAlias'] &&
+                keystoreProperties['keyPassword']
+
+android {
+    namespace = "io.github.printn.humanbenchmark"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "io.github.printn.humanbenchmark"
+        minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    signingConfigs {
+        // Only create a release signing config if all props are present.
+        if (hasSigningProps) {
+            release {
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+                storeFile file(keystoreProperties['storeFile'])
+                storePassword keystoreProperties['storePassword']
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            // Use release signing only if we actually have it; otherwise skip it.
+            if (hasSigningProps) {
+                signingConfig signingConfigs.release
+            }
+            // For interview demos you’ll typically run debug builds anyway.
+            // (If you later need shrink/obfuscate, toggle these as needed)
+            // minifyEnabled false
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}

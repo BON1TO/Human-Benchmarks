@@ -1,15 +1,15 @@
-🧠 Human Benchmark
-<p align="center"> <img src="https://i.postimg.cc/jShmHwyX/Screenshot-20251029-175805.jpg" width="200" style="margin: 5px;"> <img src="https://i.postimg.cc/JnQsmQXf/Screenshot-20251029-175814.jpg" width="200" style="margin: 5px;"> <img src="https://i.postimg.cc/HLDnyN4F/Screenshot-20251029-175855.jpg" width="200" style="margin: 5px;"> <img src="https://i.postimg.cc/L5b66Q8Y/Screenshot-20251029-175920.jpg" width="200" style="margin: 5px;"> </p> <p align="center"> <strong>Test your brain. Sharpen your reflexes. Challenge your limits.</strong><br> Built in <b>Flutter</b> with ❤️ using <b>Android Studio</b>. </p>
+<h1 align="center" style="font-size: 3.5rem;"> 🧠 HUMAN BENCHMARK </h1> <p align="center"> <strong>Test your brain. Sharpen your reflexes. Challenge your limits.</strong><br> Built with ❤️ using <b>Flutter</b> & <b>Android Studio</b>. </p>
+<p align="center"> <img src="https://i.postimg.cc/jShmHwyX/Screenshot-20251029-175805.jpg" width="200" style="margin: 5px;"> <img src="https://i.postimg.cc/JnQsmQXf/Screenshot-20251029-175814.jpg" width="200" style="margin: 5px;"> <img src="https://i.postimg.cc/HLDnyN4F/Screenshot-20251029-175855.jpg" width="200" style="margin: 5px;"> <img src="https://i.postimg.cc/L5b66Q8Y/Screenshot-20251029-175920.jpg" width="200" style="margin: 5px;"> </p>
 🧩 Overview
 
-Human Benchmark is a mobile application designed to test and improve your cognitive performance through a collection of fun, interactive, and scientifically-inspired challenges.
+Human Benchmark is a mobile application designed to test and enhance your cognitive abilities through a series of fun, interactive, and scientifically-inspired challenges.
 
-Each game evaluates a different mental skill — such as memory, reaction speed, accuracy, and focus — helping you track your progress and discover your strengths over time.
+Each mini-game focuses on a unique mental skill — such as memory, reaction time, focus, or accuracy — helping you understand your strengths and track your improvement over time.
 
 🚀 Features
 
-🎯 Comprehensive Cognitive Tests
-Test yourself in multiple areas:
+🎯 Comprehensive Test Suite
+Includes tests like:
 
 Reaction Time
 
@@ -31,35 +31,35 @@ Aim Trainer
 
 Info Retention
 
-Intelligence Quotient (IQ)
+IQ Measurement
 
 📊 Smart Statistics
-View detailed stats of your performance and track progress over time.
+Track your performance with visual stats and progress tracking.
 
 🌍 Global Comparison
-Compare your scores to average results from users worldwide.
+Compare your average results with users worldwide.
 
-📸 Share Your Stats
-Instantly generate and share your benchmark results as images.
+📸 Share Your Results
+Generate and share beautiful stat cards with friends or on social media.
 
-📴 Offline Mode
-Works entirely offline — no login or internet required.
+📴 Completely Offline
+Enjoy full functionality with zero internet connection.
 
-💡 Clean, Responsive UI
-Designed with Flutter’s Material 3 for smooth animations and consistency.
+💡 Minimal UI
+Clean and smooth Material Design 3 interface with great UX.
 
 🧠 Tech Stack
 Layer	Technology
 Framework	Flutter (Dart)
 IDE	Android Studio
 Local Storage	Shared Preferences
-UI	Material Design 3 + Custom Widgets
-State Management	setState / Provider (as per project implementation)
+UI Toolkit	Material Design 3
+State Management	setState / Provider
 📲 Installation
 Prerequisites
 
 Flutter SDK
 
-Android Studio (latest stable version)
+Android Studio (latest version)
 
 An Android device or emulator

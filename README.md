@@ -10,7 +10,7 @@ Reaction Time
 
 Typing Speed
 
-Chimp Test
+Chimp TesT
 
 Number Memory
 

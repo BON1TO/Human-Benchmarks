@@ -5,7 +5,7 @@
 
 
 <div align="center">
-    <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="230" height="400" style="margin: 5px;">
+    <img src="https://i.postimg.cc/jShmHwyX/Screenshot-20251029-175805.jpg" width="230" height="400" style="margin: 5px;">
     <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="230" height="400" style="margin: 5px;">
     <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" width="230" height="400" style="margin: 5px;">
     <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="230" height="400" style="margin: 5px;">

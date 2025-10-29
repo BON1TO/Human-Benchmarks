@@ -20,8 +20,4 @@
 
 ## Acknowledgments
 
-Thanks to the Flutter community for providing great resources and support. This app is heavily inspired by the original [Human Benchmark](https://humanbenchmark.com) website.
-
-## License
-
-This project is licensed under the GNU General Public License v3.0 License. For more details, please read the [LICENSE](LICENSE) file.
+This app is heavily inspired by the original [Human Benchmark](https://humanbenchmark.com) website.

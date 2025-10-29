@@ -50,9 +50,8 @@ IDE	Android Studio
 UI Toolkit	Material Design 3
 State Management	setState / Provider
 Local Storage	Shared Preferences
-Platform	Android (Mobile)
-/m
-/m
+Platform	Android (Mobile) <br> <br>
+
 STEPS FOR PERSONAL USE : 
 
 

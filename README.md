@@ -1,4 +1,4 @@
-<h1 align="center" style="font-size: 3.5rem;"> 🧠 HUMAN BENCHMARK </h1> <p align="center"> <strong>Test your brain. Sharpen your reflexes. Challenge your limits.</strong><br> Built with ❤️ using <b>Flutter</b> & <b>Android Studio</b>. </p>
+<h1 align="center" style="font-size: 3.5rem;"> 🧠 HUMAN BENCHMARKS </h1> <p align="center"> <strong>Test your brain. Sharpen your reflexes. Challenge your limits.</strong><br> Built with ❤️ using <b>Flutter</b> & <b>Android Studio</b>. </p>
 <p align="center"> <img src="https://i.postimg.cc/jShmHwyX/Screenshot-20251029-175805.jpg" width="200" style="margin: 5px;"> <img src="https://i.postimg.cc/JnQsmQXf/Screenshot-20251029-175814.jpg" width="200" style="margin: 5px;"> <img src="https://i.postimg.cc/HLDnyN4F/Screenshot-20251029-175855.jpg" width="200" style="margin: 5px;"> <img src="https://i.postimg.cc/L5b66Q8Y/Screenshot-20251029-175920.jpg" width="200" style="margin: 5px;"> </p>
 <h2 align="center" style="font-size: 2rem;"> 🧩 OVERVIEW </h2> <p align="center"> <b>Human Benchmark</b> is a mobile application designed to test and enhance your <b>cognitive abilities</b> through a variety of fun, interactive, and scientifically inspired challenges. <br><br> Each test focuses on a specific mental skill — such as <b>memory</b>, <b>reaction time</b>, <b>focus</b>, and <b>accuracy</b> — helping you discover your strengths and track your improvement over time. </p>
 <h2 align="center" style="font-size: 2rem;"> 🚀 FEATURES </h2> <p align="center"> Discover your true potential with a collection of mini-games designed to challenge different aspects of your brainpower. </p>
@@ -56,10 +56,10 @@ STEPS FOR PERSONAL USE :
 
 
 # Clone this repository
-git clone https://github.com/BON1TO/Human-Benchmark.git
+git clone https://github.com/BON1TO/Human-Benchmarks.git
 
 # Navigate into the project
-cd Human-Benchmark
+cd Human-Benchmarks
 
 # Install dependencies
 flutter pub get

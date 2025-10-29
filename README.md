@@ -1,28 +1,65 @@
-# Human Benchmark
+🧠 Human Benchmark
+<p align="center"> <img src="https://i.postimg.cc/jShmHwyX/Screenshot-20251029-175805.jpg" width="200" style="margin: 5px;"> <img src="https://i.postimg.cc/JnQsmQXf/Screenshot-20251029-175814.jpg" width="200" style="margin: 5px;"> <img src="https://i.postimg.cc/HLDnyN4F/Screenshot-20251029-175855.jpg" width="200" style="margin: 5px;"> <img src="https://i.postimg.cc/L5b66Q8Y/Screenshot-20251029-175920.jpg" width="200" style="margin: 5px;"> </p> <p align="center"> <strong>Test your brain. Sharpen your reflexes. Challenge your limits.</strong><br> Built in <b>Flutter</b> with ❤️ using <b>Android Studio</b>. </p>
+🧩 Overview
 
+Human Benchmark is a mobile application designed to test and improve your cognitive performance through a collection of fun, interactive, and scientifically-inspired challenges.
 
-<p>Human Benchmark is a mobile application designed to test and improve your cognitive abilities through a series of fun and challenging tests. The app offers various tests, including verbal memory, reaction time, pattern recognition, aim training, and typing tests, each designed to measure different aspects of your mental capabilities.</p>
-.
-.
-.
-.
+Each game evaluates a different mental skill — such as memory, reaction speed, accuracy, and focus — helping you track your progress and discover your strengths over time.
 
-<div align="center">
-    <img src="https://i.postimg.cc/jShmHwyX/Screenshot-20251029-175805.jpg" width="230" height="400" style="margin: 5px;">
-    <img src="https://i.postimg.cc/JnQsmQXf/Screenshot-20251029-175814.jpg" width="230" height="400" style="margin: 5px;">
-    <img src="https://i.postimg.cc/HLDnyN4F/Screenshot-20251029-175855.jpg" width="230" height="400" style="margin: 5px;">
-    <img src="https://i.postimg.cc/L5b66Q8Y/Screenshot-20251029-175920.jpg" width="230" height="400" style="margin: 5px;">
-</div>
-.
-.
-.
-.
-## Features
-- **Comprehensive Testing**: Test yourself in various areas, including Reaction Time, Typing, Chimp Test, Number Memory, Hearing Test, Verbal Memory, Sequence Memory, Visual Memory, Aim Training, Info Retention, and Intelligence Quotient.
-- **Statistics**: Compare your performance to others around the world.
-- **Share Your Statistics**: Easily share an image of your statistics with friends or on social media.
-- **Offline Access**: Enjoy the app fully without needing an internet connection; it's 100% offline.
+🚀 Features
 
-## Acknowledgments
+🎯 Comprehensive Cognitive Tests
+Test yourself in multiple areas:
 
-This app is heavily inspired by the original [Human Benchmark](https://humanbenchmark.com) website.
+Reaction Time
+
+Typing Speed
+
+Chimp Test
+
+Number Memory
+
+Hearing Test
+
+Verbal Memory
+
+Sequence Memory
+
+Visual Memory
+
+Aim Trainer
+
+Info Retention
+
+Intelligence Quotient (IQ)
+
+📊 Smart Statistics
+View detailed stats of your performance and track progress over time.
+
+🌍 Global Comparison
+Compare your scores to average results from users worldwide.
+
+📸 Share Your Stats
+Instantly generate and share your benchmark results as images.
+
+📴 Offline Mode
+Works entirely offline — no login or internet required.
+
+💡 Clean, Responsive UI
+Designed with Flutter’s Material 3 for smooth animations and consistency.
+
+🧠 Tech Stack
+Layer	Technology
+Framework	Flutter (Dart)
+IDE	Android Studio
+Local Storage	Shared Preferences
+UI	Material Design 3 + Custom Widgets
+State Management	setState / Provider (as per project implementation)
+📲 Installation
+Prerequisites
+
+Flutter SDK
+
+Android Studio (latest stable version)
+
+An Android device or emulator

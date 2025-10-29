@@ -43,18 +43,26 @@ Works 100% offline — no login or internet required.
 💡 Clean Flutter UI
 Smooth animations, modern design, and intuitive layout.
 
-🧠 Tech Stack
-Layer	Technology
-Framework	Flutter (Dart)
-IDE	Android Studio
-Storage	Shared Preferences
-UI Toolkit	Material Design 3
-State Management	setState / Provider
-📲 Installation
-Prerequisites
+🧠 Tech Stack :
+Layer	Technology , 
+Framework	Flutter (Dart) , 
+IDE	Android Studio , 
+Storage	Shared Preferences , 
+UI Toolkit	Material Design 3 , 
+State Management	setState / Provider .
 
-Flutter SDK
 
-Android Studio (latest version)
+STEPS FOR PERSONAL USE : 
 
-A connected Android device or emulator
+
+# Clone this repository
+git clone https://github.com/BON1TO/Human-Benchmark.git
+
+# Navigate into the project
+cd Human-Benchmark
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
